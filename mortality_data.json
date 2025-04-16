@@ -1,0 +1,302 @@
+[
+  {
+    "State": "Alabama",
+    "Deaths": 717,
+    "Population": 5108468,
+    "Crude Rate": 14.0
+  },
+  {
+    "State": "Alaska",
+    "Deaths": 61,
+    "Population": 733406,
+    "Crude Rate": 8.3
+  },
+  {
+    "State": "Arizona",
+    "Deaths": 531,
+    "Population": 7431344,
+    "Crude Rate": 7.1
+  },
+  {
+    "State": "Arkansas",
+    "Deaths": 325,
+    "Population": 3067732,
+    "Crude Rate": 10.6
+  },
+  {
+    "State": "California",
+    "Deaths": 1972,
+    "Population": 38965193,
+    "Crude Rate": 5.1
+  },
+  {
+    "State": "Colorado",
+    "Deaths": 368,
+    "Population": 5877610,
+    "Crude Rate": 6.3
+  },
+  {
+    "State": "Connecticut",
+    "Deaths": 153,
+    "Population": 3617176,
+    "Crude Rate": 4.2
+  },
+  {
+    "State": "Delaware",
+    "Deaths": 55,
+    "Population": 1031890,
+    "Crude Rate": 5.3
+  },
+  {
+    "State": "District of Columbia",
+    "Deaths": 244,
+    "Population": 678972,
+    "Crude Rate": 35.9
+  },
+  {
+    "State": "Florida",
+    "Deaths": 1361,
+    "Population": 22610726,
+    "Crude Rate": 6.0
+  },
+  {
+    "State": "Georgia",
+    "Deaths": 1067,
+    "Population": 11029227,
+    "Crude Rate": 9.7
+  },
+  {
+    "State": "Hawaii",
+    "Deaths": 42,
+    "Population": 1435138,
+    "Crude Rate": 2.9
+  },
+  {
+    "State": "Idaho",
+    "Deaths": 49,
+    "Population": 1964726,
+    "Crude Rate": 2.5
+  },
+  {
+    "State": "Illinois",
+    "Deaths": 1171,
+    "Population": 12549689,
+    "Crude Rate": 9.3
+  },
+  {
+    "State": "Indiana",
+    "Deaths": 523,
+    "Population": 6862199,
+    "Crude Rate": 7.6
+  },
+  {
+    "State": "Iowa",
+    "Deaths": 101,
+    "Population": 3207004,
+    "Crude Rate": 3.1
+  },
+  {
+    "State": "Kansas",
+    "Deaths": 186,
+    "Population": 2940546,
+    "Crude Rate": 6.3
+  },
+  {
+    "State": "Kentucky",
+    "Deaths": 316,
+    "Population": 4526154,
+    "Crude Rate": 7.0
+  },
+  {
+    "State": "Louisiana",
+    "Deaths": 837,
+    "Population": 4573749,
+    "Crude Rate": 18.3
+  },
+  {
+    "State": "Maine",
+    "Deaths": 48,
+    "Population": 1395722,
+    "Crude Rate": 3.4
+  },
+  {
+    "State": "Maryland",
+    "Deaths": 582,
+    "Population": 6180253,
+    "Crude Rate": 9.4
+  },
+  {
+    "State": "Massachusetts",
+    "Deaths": 182,
+    "Population": 7001399,
+    "Crude Rate": 2.6
+  },
+  {
+    "State": "Michigan",
+    "Deaths": 637,
+    "Population": 10037261,
+    "Crude Rate": 6.3
+  },
+  {
+    "State": "Minnesota",
+    "Deaths": 197,
+    "Population": 5737915,
+    "Crude Rate": 3.4
+  },
+  {
+    "State": "Mississippi",
+    "Deaths": 543,
+    "Population": 2939690,
+    "Crude Rate": 18.5
+  },
+  {
+    "State": "Missouri",
+    "Deaths": 612,
+    "Population": 6196156,
+    "Crude Rate": 9.9
+  },
+  {
+    "State": "Montana",
+    "Deaths": 50,
+    "Population": 1132812,
+    "Crude Rate": 4.4
+  },
+  {
+    "State": "Nebraska",
+    "Deaths": 64,
+    "Population": 1978379,
+    "Crude Rate": 3.2
+  },
+  {
+    "State": "Nevada",
+    "Deaths": 258,
+    "Population": 3194176,
+    "Crude Rate": 8.1
+  },
+  {
+    "State": "New Hampshire",
+    "Deaths": 29,
+    "Population": 1402054,
+    "Crude Rate": 2.1
+  },
+  {
+    "State": "New Jersey",
+    "Deaths": 293,
+    "Population": 9290841,
+    "Crude Rate": 3.2
+  },
+  {
+    "State": "New Mexico",
+    "Deaths": 290,
+    "Population": 2114371,
+    "Crude Rate": 13.7
+  },
+  {
+    "State": "New York",
+    "Deaths": 745,
+    "Population": 19571216,
+    "Crude Rate": 3.8
+  },
+  {
+    "State": "North Carolina",
+    "Deaths": 887,
+    "Population": 10835491,
+    "Crude Rate": 8.2
+  },
+  {
+    "State": "North Dakota",
+    "Deaths": 24,
+    "Population": 783926,
+    "Crude Rate": 3.1
+  },
+  {
+    "State": "Ohio",
+    "Deaths": 869,
+    "Population": 11785935,
+    "Crude Rate": 7.4
+  },
+  {
+    "State": "Oklahoma",
+    "Deaths": 293,
+    "Population": 4053824,
+    "Crude Rate": 7.2
+  },
+  {
+    "State": "Oregon",
+    "Deaths": 188,
+    "Population": 4233358,
+    "Crude Rate": 4.4
+  },
+  {
+    "State": "Pennsylvania",
+    "Deaths": 914,
+    "Population": 12961683,
+    "Crude Rate": 7.1
+  },
+  {
+    "State": "Rhode Island",
+    "Deaths": 30,
+    "Population": 1095962,
+    "Crude Rate": 2.7
+  },
+  {
+    "State": "South Carolina",
+    "Deaths": 565,
+    "Population": 5373555,
+    "Crude Rate": 10.5
+  },
+  {
+    "State": "South Dakota",
+    "Deaths": 38,
+    "Population": 919318,
+    "Crude Rate": 4.1
+  },
+  {
+    "State": "Tennessee",
+    "Deaths": 777,
+    "Population": 7126489,
+    "Crude Rate": 10.9
+  },
+  {
+    "State": "Texas",
+    "Deaths": 2159,
+    "Population": 30503301,
+    "Crude Rate": 7.1
+  },
+  {
+    "State": "Utah",
+    "Deaths": 76,
+    "Population": 3417734,
+    "Crude Rate": 2.2
+  },
+  {
+    "State": "Vermont",
+    "Deaths": 21,
+    "Population": 647464,
+    "Crude Rate": 3.2
+  },
+  {
+    "State": "Virginia",
+    "Deaths": 576,
+    "Population": 8715698,
+    "Crude Rate": 6.6
+  },
+  {
+    "State": "Washington",
+    "Deaths": 414,
+    "Population": 7812880,
+    "Crude Rate": 5.3
+  },
+  {
+    "State": "West Virginia",
+    "Deaths": 88,
+    "Population": 1770071,
+    "Crude Rate": 5.0
+  },
+  {
+    "State": "Wisconsin",
+    "Deaths": 284,
+    "Population": 5910955,
+    "Crude Rate": 4.8
+  }
+]

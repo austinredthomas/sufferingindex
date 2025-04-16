@@ -13,17 +13,17 @@ This project exists to practice modern DevOps workflows while working on somethi
 - Infrastructure provisioned with Terraform (AWS)
 - (Planned) Logging & monitoring with CloudWatch or Prometheus/Grafana
 
-## Ì≥ä Sample Dataset
+## Sample Dataset
 
 Initial dataset:  
-Top 10 countries by homicide rate (UNODC or WHO data)
+Underlying Cause of Death, Homicide, 2023 (Source: [CDC](https://wonder.cdc.gov))
 
 More datasets planned:
 - Infant mortality
 - Overdose deaths by US state
 - Global poverty rates
 
-## Ìª†Ô∏è Tech Stack
+## Tech Stack
 
 | Component        | Tech                                |
 |------------------|-------------------------------------|
@@ -35,7 +35,7 @@ More datasets planned:
 | Cloud Provider   | AWS (EC2, S3, etc.)                 |
 | Monitoring       | CloudWatch, Prometheus, Grafana     |
 
-## Ì∫Ä Getting Started
+## Getting Started
 
 Clone the repo and run locally:
 
@@ -44,15 +44,11 @@ git clone https://github.com/yourusername/suffering-index-lite.git
 cd suffering-index-lite
 docker-compose up --build
 ```
-```bash
-git clone https://github.com/yourusername/suffering-index-lite.git
-cd suffering-index-lite
-docker-compose up --build
 
 The backend will be available at http://localhost:5000/data
 The frontend at http://localhost:3000 (if using React)
 
-Ìºê Deployment
+ÔøΩÔøΩÔøΩ Deployment
 
 This app is deployed via GitHub Actions to [Render/EC2/other].
 
