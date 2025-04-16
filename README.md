@@ -63,12 +63,12 @@ terraform apply
 git push origin main
 ```
 
-# Monitoring
+## Monitoring
 
 Coming soon:
 Basic request logging and performance metrics exposed to [CloudWatch / Prometheus].
 
-# Learning Goals
+## Learning Goals
 
 This project was created to practice:
 
@@ -82,10 +82,10 @@ This project was created to practice:
 
     Building with purpose
 
-# Contributing
+## Contributing
 
 Open to suggestions for new datasets or better infra patterns. Feel free to fork and PR!
 
-# License
+## License
 
 MIT License.
