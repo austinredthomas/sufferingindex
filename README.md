@@ -1,6 +1,6 @@
 # Suffering Index Lite
 
-A simple web app that visualizes data related to human suffering—think mortality rates, violence, or poverty—so we can better understand where the world hurts the most.
+A simple web app that visualizes data related to human suffering – mortality rates, violence, or poverty – so we can better understand where the world hurts the most.
 
 This project exists to practice modern DevOps workflows while working on something with meaning.
 
