@@ -48,7 +48,7 @@ docker-compose up --build
 The backend will be available at http://localhost:5000/data
 The frontend at http://localhost:3000 (if using React)
 
-��� Deployment
+## Deployment
 
 This app is deployed via GitHub Actions to [Render/EC2/other].
 
