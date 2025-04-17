@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suffering Index</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial; padding: 2rem; background: #f5f5f5; }
+        h1 { margin-bottom: 1rem; }
+        .state { background: white; padding: 1rem; margin: 0.5rem 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Suffering Index – State Homicide Rates</h1>
+
+    <canvas id="mortalityChart" width="800" height="400"></canvas>
+    <div id="data"></div>
+    
+    <script>
+        fetch('/data')
+            .then(response => response.json())
+            .then(data => {
+                // Sort states by crude rate descending
+                const sorted = data
+                    .filter(item => item["Crude Rate"] !== "Unreliable")
+                    .sort((a, b) => b["Crude Rate"] - a["Crude Rate"]);
+    
+                const labels = sorted.map(item => item["State"]);
+                const rates = sorted.map(item => item["Crude Rate"]);
+    
+                // Build chart
+                const ctx = document.getElementById('mortalityChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Crude Mortality Rate (per 100,000)',
+                            data: rates,
+                            backgroundColor: 'rgba(220, 53, 69, 0.7)',
+                            borderColor: 'rgba(220, 53, 69, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            x: {
+                                ticks: {
+                                    autoSkip: false,
+                                    maxRotation: 90,
+                                    minRotation: 45
+                                }
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+    
+
+</body>
+</html>
