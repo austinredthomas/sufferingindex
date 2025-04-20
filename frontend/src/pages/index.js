@@ -16,9 +16,10 @@ export default function Home() {
 		<div className="min-h-screen flex flex-col bg-white text-gray-800 font-sans">
 			<main className="flex-grow p-8">
 				<div className="max-w-5xl mx-auto">
-					<h1 className="text-2xl mb-4 border-b border-gray-300 pb-2">
-						Suffering Index Lite
-					</h1>
+				<h1 className="text-2xl font-bold mb-1">Suffering Index Lite</h1>
+					<p className="text-sm text-gray-600 mb-4 italic">
+						Crude mortality rate by U.S. state, 2023 &mdash; <strong className="not-italic">Homicide deaths</strong>
+					</p>
 					<USMap data={data} />
 					{data.length > 0 && (
 						<Legend
