@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, send_from_directory
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/data")
 def get_data():
@@ -9,9 +11,6 @@ def get_data():
         data = json.load(f)
     return jsonify(data)
 
-@app.route("/")
-def index():
-    return send_from_directory("static", "index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
