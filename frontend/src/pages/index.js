@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import USMap from "@/components/USMap";
+import Legend from "@/components/Legend";
+
 
 export default function Home() {
 	const [data, setData] = useState([]);
@@ -17,6 +19,12 @@ export default function Home() {
 					Suffering Index Lite
 				</h1>
 				<USMap data={data} />
+				{data.length > 0 && (
+					<Legend
+						min={Math.min(...data.map((d) => typeof d["Crude Rate"] === "number" ? d["Crude Rate"] : Infinity))}
+						max={Math.max(...data.map((d) => typeof d["Crude Rate"] === "number" ? d["Crude Rate"] : -Infinity))}
+					/>
+				)}
 			</div>
 		</main>
 	);

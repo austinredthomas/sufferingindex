@@ -28,7 +28,7 @@ export default function USMap({ data }) {
 		.range(["#cce5ff", "#003366"]);
 
 	return (
-		<div className="bg-white text-gray-800 p-4 rounded shadow">
+		<div className="bg-white text-gray-800 p-4 rounded">
 			<ComposableMap projection="geoAlbersUsa" width={980} height={600}>
 				<Geographies geography={geoUrl}>
 					{({ geographies }) =>
