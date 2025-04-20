@@ -63,11 +63,11 @@ export default function USMap({ data }) {
                                             outline: "none",
                                         },
                                         hover: {
-                                            fill: "#ffcc00",
+                                            fill: "#04163b",
                                             outline: "none",
                                         },
                                         pressed: {
-                                            fill: "#ffaa00",
+                                            fill: "#04163b",
                                             outline: "none",
                                         },
                                     }}

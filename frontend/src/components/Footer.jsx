@@ -1,6 +1,6 @@
 export default function Footer() {
 	return (
-		<footer className="mt-12 border-t pt-6 pb-1 text-sm text-gray-500 text-center">
+		<footer className="mt-12 border-t pt-2 pb-2 text-sm text-gray-500 text-center">
 			<p>
 				Suffering Index Lite &mdash; Built by{" "}
                 <a
@@ -13,7 +13,7 @@ export default function Footer() {
                 </a>{" "}
                 with Flask, Next.js, and d3
 			</p>
-			<p className="mt-1">
+			<p className="mt-1 text-xs">
 				Data source: CDC WONDER (2023)
 			</p>
 		</footer>
