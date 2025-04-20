@@ -65,6 +65,7 @@ export default function USMap({ data }) {
                                         hover: {
                                             fill: "#04163b",
                                             outline: "none",
+                                            transition: "fill 0.1s ease-in-out"
                                         },
                                         pressed: {
                                             fill: "#04163b",
