@@ -59,7 +59,7 @@ export default function USMap({ data }) {
                                         default: {
                                             fill,
                                             stroke: "#999",
-                                            strokeWidth: 0.5,
+                                            strokeWidth: 0.0,
                                             outline: "none",
                                         },
                                         hover: {
