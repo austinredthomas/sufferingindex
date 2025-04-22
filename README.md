@@ -4,13 +4,13 @@ A simple web app that visualizes data related to human suffering – mortality r
 
 This project exists to practice modern DevOps workflows while working on something with meaning.
 
-## ✨ Features
+## Features
 
-- Flask (or FastAPI) backend serving structured data via REST API
+- Flask backend serving structured data via REST API
 - Simple frontend to visualize global/regional suffering indicators
 - Fully containerized via Docker and Docker Compose
-- CI/CD pipeline using GitHub Actions
-- Infrastructure provisioned with Terraform (AWS)
+- (Planned) CI/CD pipeline using GitHub Actions
+- (Planned) Infrastructure provisioned with Terraform (AWS)
 - (Planned) Logging & monitoring with CloudWatch or Prometheus/Grafana
 
 ## Sample Dataset
