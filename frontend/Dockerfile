@@ -1,12 +1,13 @@
 # Use official Node image
-FROM node:18
+FROM node:lts-slim
 
 # Set work directory
 WORKDIR /app
+ENV NODE_ENV=production
 
 # Install dependencies first (for better caching)
 COPY package*.json ./
-RUN npm install --legacy-peer-deps --force
+RUN npm ci --legacy-peer-deps --force
 
 # Copy the rest of the app
 COPY . .
