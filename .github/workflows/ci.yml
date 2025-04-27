@@ -19,6 +19,12 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+      - name: Docker system prune
+        run: docker builder prune --all --force
+
+      - name: Check lockfile for Tailwind
+        run: cat ./frontend/package-lock.json | grep tailwindcss || echo "Tailwind not found in lockfile"
+
       - name: Backend - Build Docker Image
         run: |
           docker build -t sufferingindex-backend ./backend
