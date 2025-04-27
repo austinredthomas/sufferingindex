@@ -6,7 +6,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 
 # Install dependencies first (for better caching)
-COPY package*.json ./
+COPY package.json package-lock.json ./
 RUN npm install --legacy-peer-deps --force
 
 # Copy the rest of the app
