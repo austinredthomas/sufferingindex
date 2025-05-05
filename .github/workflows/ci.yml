@@ -33,14 +33,14 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/sufferingindex-backend:latest
+          tags: austinredthomas/sufferingindex-backend:latest
 
       - name: Frontend - Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
           context: ./frontend
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/sufferingindex-frontend:latest
+          tags: austinredthomas/sufferingindex-frontend:latest
 
       - name: Start Docker Compose stack
         run: |
