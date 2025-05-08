@@ -27,10 +27,10 @@ More datasets planned:
 
 | Component        | Tech                                |
 |------------------|-------------------------------------|
-| Backend          | Flask or FastAPI                    |
-| Frontend         | HTML/CSS + JS or React              |
+| Backend          | Flask                               |
+| Frontend         | React                               |
 | Containerization | Docker, Docker Compose              |
-| CI/CD            | GitHub Actions                      |
+| CI/CD            | GitHub Actions -> Docker Hub        |
 | Infra-as-Code    | Terraform                           |
 | Cloud Provider   | AWS (EC2, S3, etc.)                 |
 | Monitoring       | CloudWatch, Prometheus, Grafana     |
@@ -40,28 +40,17 @@ More datasets planned:
 Clone the repo and run locally:
 
 ```bash
-git clone https://github.com/yourusername/suffering-index-lite.git
-cd suffering-index-lite
+git clone https://github.com/yourusername/suffering-index.git
+cd suffering-index
 docker-compose up --build
 ```
 
 The backend will be available at http://localhost:5000/data
-The frontend at http://localhost:3000 (if using React)
+The frontend at http://localhost:3000
 
 ## Deployment
 
-This app is deployed via GitHub Actions to [Render/EC2/other].
-
-To deploy your own version:
-
-```bash
-# Deploy infrastructure
-terraform init
-terraform apply
-
-# Push changes to main
-git push origin main
-```
+This app is deployed via GitHub Actions to Docker Hub.
 
 ## Monitoring
 
@@ -72,19 +61,11 @@ Basic request logging and performance metrics exposed to [CloudWatch / Prometheu
 
 This project was created to practice:
 
-    Infrastructure-as-code with Terraform
-
     CI/CD pipelines
 
     Secure deployment and secrets management
 
     Observability and logging
-
-    Building with purpose
-
-## Contributing
-
-Open to suggestions for new datasets or better infra patterns. Feel free to fork and PR!
 
 ## License
 
