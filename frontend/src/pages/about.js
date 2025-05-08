@@ -16,7 +16,7 @@ export default function AboutPage() {
                     </p>
 
                     <p className="mb-4 leading-relaxed text-gray-700">
-                        It's meant to inspire awareness and reflection - turning public health data into something personal, legible, and interactive. Built with a Flask backend and a Next.js frontend using React, d3, and Tailwind CSS.
+                        It&apos;s meant to inspire awareness and reflection - turning public health data into something personal, legible, and interactive. Built with a Flask backend and a Next.js frontend using React, d3, and Tailwind CSS.
                     </p>
 
                     <p className="mb-8 leading-relaxed text-gray-700">
