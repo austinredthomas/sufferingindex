@@ -9,6 +9,7 @@ services:
       - "5000:5000"
     environment:
       - FLASK_ENV=production
+    restart: always
 
   frontend:
     build:
@@ -19,3 +20,4 @@ services:
       - NEXT_PUBLIC_API_URL=http://backend:5000
       - NODE_ENV=production
     command: npm run start
+    restart: always
