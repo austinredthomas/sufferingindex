@@ -8,7 +8,7 @@ export default function Home() {
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
-		fetch("http://localhost:5000/data")
+		fetch('/data')
 			.then((res) => res.json())
 			.then(setData);
 	}, []);
