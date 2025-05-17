@@ -8,9 +8,10 @@ export default function Home() {
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
-		fetch('/data')
+		fetch('api/data')
 			.then((res) => res.json())
-			.then(setData);
+			.then(setData)
+			.catch((err) => console.error('fetch /data failed:', err));
 	}, []);
 
 	return (
