@@ -8,9 +8,10 @@ A simple web app that visualizes data related to human suffering so we can bette
 - Simple frontend to visualize global/regional suffering indicators
 - Fully containerized via Docker and Docker Compose
 - CI/CD pipeline using GitHub Actions
-- (Planned) Logging & monitoring with CloudWatch or Prometheus/Grafana
+- (Planned) Logging & monitoring with Prometheus/Grafana
 
 ## Sample Dataset
+In the future, I'm hoping to add historical data and other metrics, but for now am starting with this sample dataset.
 
 Initial dataset:  
 Underlying Cause of Death, Homicide, 2023 (Source: [CDC](https://wonder.cdc.gov))
